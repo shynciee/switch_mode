@@ -9,7 +9,7 @@ const appConfig = {
   },
 };
 
-app.get("/status", (req, res) => {
+app.get('/status', (req, res) => {
   res.json(appConfig);
 });
 
